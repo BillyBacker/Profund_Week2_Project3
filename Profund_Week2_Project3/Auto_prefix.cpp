@@ -48,4 +48,5 @@ int main() {
 	else if (Full * 1.0 >= 0.5 * exp('T') && Full < 0.5 * exp('P')) {
 		printf("%.2lf%c", Full * 1.0 / exp('T'), 'T');
 	}
+	return 0;
 }
